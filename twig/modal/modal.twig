@@ -4,7 +4,7 @@
   <div class="modal__content modal__content--{{ bg_color|default("white") }}" 
   tabindex="-1" role="dialog" aria-modal="true">
     
-    {% include '../close-button/close-button.twig' with {
+    {% include '@pds/close-button/close-button.twig' with {
       color: (bg_color == "white") ? "black" : "white",
     } %}
   
