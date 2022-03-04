@@ -16,5 +16,12 @@
 		"allow-plugins": {
 			"composer/installers": true
 		}
+	},
+	"archive": {
+		"exclude": [
+			"README.md",
+			"/css",
+			"/fonts"
+		]
 	}
 }
